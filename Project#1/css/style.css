@@ -1,0 +1,144 @@
+/*FONT MADPPAKE NOT FOR COMMERCIAL USE, DOWNLOADED FROM 1001fonts.com*/
+@font-face{
+    font-family: Madpakke;
+    src: url("fonts/madpakkeDEMO.otf") format("opentype");
+}
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color: #ffecaf;*/
+    width: 100%;
+    height: 100%;
+    background: url("img/burger-hero.jpg") no-repeat center center fixed;
+}
+#header{
+    background-color: #e74c3c;
+    width: 100%;
+    height: 15vh;
+}
+#logo{
+    font-family: Madpakke, sans-serif;
+    font-size: 6em;
+    text-decoration: none;
+    margin-top: 20%;
+    margin-left: 10vh;
+}
+.about{
+    font-family: Madpakke, sans-serif;
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+    margin-top: 20%;
+    margin-left: 10vh;
+}
+#background{
+    width: 100%;
+}
+#content{
+    margin-top: 10vh;
+    width: 150vh;
+    overflow: hidden;
+    /*height: 80vh;*/
+    background-color: #ffecaf;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    opacity: 0.9;
+}
+#title{
+    font-size: 4em;
+    font-family: Madpakke, sans-serif;
+}
+.title{
+    font-size: 3em;
+    font-family: Madpakke, sans-serif;;
+}
+#footer {
+    background-color: #ffecaf;
+    width: 100%;
+    height: 5vh;
+    bottom: 0;
+    font-weight: lighter;
+    position: fixed;
+}
+#footerTxt{
+    padding-top: 0.1vh;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.answer{
+    display: none;
+}
+.p2{
+    color: brown;
+}
+
+.red{
+    color: red;
+}
+.paragraph{
+    margin-top: 10px;
+    line-height: 1;
+}
+
+.spacer{
+    height: 10vh;
+}
+
+.spacerBig{
+    height: 20vh;
+}
+
+.foodCategory{
+    font-family: Madpakke, sans-serif;
+    font-size: 60px;
+    margin-right: 30vh;
+    transition: 1s;
+    display: inline;
+}
+
+.foodCategory:hover{
+    font-size: 80px;
+    transition: font-size 1s;
+}
+
+#categories{
+    position: absolute;
+}
+
+#menuItems{
+    line-height: 0.75;
+    margin-top: 10vh;
+    margin-right: 25vh;
+    width: 100%;
+}
+
+.column{
+    margin-top: 10vh;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.inputDescription{
+    display: inline;
+}
+
+textarea{
+    resize: none;
+}
+
+input[type="submit"]
+{
+    border: 0;
+    box-shadow: none;
+    border-radius: 10px;
+    background: white;
+    font-family: Poppins, sans-serif;
+    width: 10vh;
+    height: 5vh;
+    font-size: 20px;
+}
